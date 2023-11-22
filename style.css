@@ -1,0 +1,301 @@
+:root {
+  --cream: #9e6843;
+  --bg: #0a0a0a00;
+  --shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: 'Tenor Sans', sans-serif;
+  min-height: 4000px;
+}
+
+.hero {
+  min-height: 100vh;
+  background-image: url(img/memegang-cincin.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero h1,
+.hero h4,
+.hero p {
+  text-shadow: var(--shadow);
+}
+
+.hero h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  color: #fff024;
+  font-weight: bold;
+}
+
+.hero h4 {
+  font-family: 'Tenor Sans', sans-serif;
+  color: white;
+}
+
+.hero p {
+  font-family: 'Tenor Sans', sans-serif;
+  color: white;
+}
+
+.hero a {
+  color: var(--cream);
+  background-color: white;
+  box-shadow: var(--shadow);
+}
+
+.hero a:hover {
+  background-color: white;
+  color: var(--cream);
+}
+
+.navbar {
+  background-color: #9e6843;
+}
+
+.mynavbar .navbar-brand {
+  font-family: 'sacramento', cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff024;
+}
+
+.beranda {
+  background-image: url(img/bg-flower-2.png);
+  min-height: 120vh;
+  background-position: right;
+  background-size: cover;
+  margin-top: -4rem;
+  padding-top: 6rem;
+}
+
+.beranda h1 {
+  color: #381600;
+  font-family: 'sacramento', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.beranda h2 {
+  color: #fff024;
+  font-family: 'sacramento', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.beranda h4 {
+  font-size: 1, 4rem;
+  font-weight: bold;
+}
+
+.beranda h3 {
+  font-family: 'sacramento', cursive;
+  color: #381600;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.beranda p {
+  color: #220e01;
+  font-weight: bold;
+  font-size: 1, 8rem;
+}
+
+.beranda img {
+  width: 270px;
+  border: 10px solid #381600;
+}
+
+.beranda h2,
+h4,
+h3 {
+  text-shadow: var(--shadow);
+}
+
+.info {
+  background-image: url(img/bg-batik.png);
+  color: #fffffe;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+}
+
+.info h2 {
+  color: #fff024;
+  font-family: 'sacramento', cursive;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.info .alamat {
+  font-size: 1.1rem;
+}
+
+.info .card {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: #000000 !important;
+}
+
+.info a {
+  color: var(--cream);
+  background-color: white;
+  box-shadow: var(--shadow);
+}
+
+.info .card-header {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.info .card-body {
+  border-top: 1px solid #999;
+  font-size: 1rem;
+}
+
+.info .card-footer {
+  border-top: 1px solid #999;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.memori {
+  background-image: url(img/bg-flower-memory.png);
+  min-height: 120vh;
+  background-position: center;
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 10rem;
+}
+
+.memori h2 {
+  color: #381600;
+  font-family: 'sacramento', cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: var(--shadow);
+}
+
+.memori p {
+  color: #381600;
+  font-weight: bold;
+}
+
+.memori h4 {
+  font-family: 'sacramento', cursive;
+  color: #fff024;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.doa h2 {
+  color: #fff024;
+  font-family: 'sacramento', cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: var(--shadow);
+}
+
+.doa p {
+  color: #381600;
+  font-weight: bold;
+}
+
+.doa {
+  background-image: url(img/bg-batik.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 10rem;
+}
+
+.penutup {
+  background-image: url(img/bg-flower-memory.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 10rem;
+}
+
+.penutup img {
+  width: 270px;
+  border: 10px solid #381600;
+}
+
+.penutup p {
+  color: #381600;
+  font-weight: bold;
+}
+
+.penutup h2 {
+  color: #fff024;
+  font-family: 'sacramento', cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: var(--shadow);
+}
+
+.audio-icon-wrapper {
+  width: 4rem;
+  height: 4rem;
+  font-size: 4rem;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 2rem;
+  cursor: pointer;
+  color: white;
+  opacity: 0.5;
+  mix-blend-mode: difference;
+  animation: rotating 4s linear infinite;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Media Query */
+/* laptop */
+@media (max-width: 992px) {
+  html {
+    font-size: 85%;
+  }
+
+  .simply-countdown > .simply-section {
+    padding: 40px;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 75%;
+  }
+
+  .simply-countdown > .simply-section {
+    padding: 35px;
+    margin: 5px;
+  }
+}
+
+/* mobile phone */
+@media (max-width: 576px) {
+  html {
+    font-size: 70%;
+  }
+
+  .simply-countdown > .simply-section {
+    padding: 25px;
+    margin: 5px;
+  }
+}
